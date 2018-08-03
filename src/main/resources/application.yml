@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/joyfulStalker/server-config.git
+      uri: http://localhost:8888
+  application:
+    name: server-config
