@@ -6,6 +6,8 @@ spring:
       server:
         git:
           uri: https://github.com/joyfulStalker/server-config.git
+          search-paths:
+          - src/main/resources
       uri: http://localhost:8888
   application:
     name: server-config
