@@ -23,6 +23,8 @@
 	</dependencies>
 
 	<build>
+		<!-- 打包的名称 -->
+		<finalName>server-config</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
